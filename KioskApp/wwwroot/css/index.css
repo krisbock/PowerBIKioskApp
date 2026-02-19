@@ -1,0 +1,28 @@
+/* Copyright (c) Microsoft Corporation.
+Licensed under the MIT license. */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#report-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.error-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+iframe {
+    border: none;
+}
